@@ -1,0 +1,146 @@
+html {font-size : 16px};
+
+body, html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+header{
+    width: 100%;
+    position: fixed;
+    max-height: 70px;
+}
+.nav-container{
+    display: flex;
+    background-color: #0B614B;
+    color: #fff;  
+    top: 0;
+    left: 0;
+    z-index: 100;
+  	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+}
+.main-container{
+   margin: 5%;
+}
+.user-name{
+    position: relative;
+    left: 10px;
+}
+	.logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+        padding-right: 40px;
+	}
+	
+	.icon{
+		position: relative;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: white;
+        border-radius: 50%;
+
+
+	}
+
+.task{
+    position: relative;
+    top: 20px;
+    min-height: 200px;
+    max-width: 380px;
+    background-color: gray;
+    margin: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.task-form{
+    position: fixed;
+    top: 130px; 
+    left: 450px;
+    display: flex;
+    justify-content: right;
+    background-color: turquoise;
+}
+.form{
+    position: relative;
+    top:80px;
+}
+.list{
+   position: relative;
+   top: 100px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.btn{
+    position: relative;
+    top: 80px;
+    width: 100px;
+    height: 40px;
+    background-color: slateblue;
+
+}
+.boton{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    background-color:darkseagreen;
+}
+.update-task-form{
+    position: fixed;
+    top: 130px; 
+    left: 450px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 2px;
+}
+.add-tag-form{
+    position: fixed;
+    top: 100px; 
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+   margin: 2px;
+}
+.btn-delete{
+    width:  80px;
+    height: 40px;
+    position: relative;
+    top:100px;
+    background-color: red;
+    padding: 5px;
+    margin: 2px;
+}
+.btn-update{
+    width: 80px;
+    position: relative;
+    height: 40px;
+    top: 100px;
+    background-color: green;
+
+}
+.btn-addTag{
+    width: 80px;
+    position: relative;
+    height: 40px;
+    top: 100px;
+    background-color:blue;
+ 
+}
+.btn-done-task{
+    width: 100px;
+    position: relative;
+    height: 40px;
+    top: 100px;
+    background-color:skyblue;
+}
+.img{
+    left: 20px;
+}
